@@ -2,14 +2,24 @@ CLI Contacts Application
 This is a CLI application for managing contacts. The application allows you to list, add, get, and remove contacts.
 
 Installation
+
 Clone the repository.
+
 Run npm install to install dependencies.
-Scripts
+
+Scripts:
+
 npm start - Run the application using Node.js.
+
 npm run start:dev - Run the application using nodemon.
-Usage
+
+
+Usage:
+
 List all contacts
+
 node index.js --action list
+
 Get a contact by ID node index.js --action get --id
 
 Add a contact node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-22
